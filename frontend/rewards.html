@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rewards — Employee Benefits Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo-mark">EB</div>
+      <span>Benefits Portal</span>
+    </div>
+    <ul class="nav-menu">
+      <li><a href="dashboard.html" id="navDashboard">Dashboard</a></li>
+      <li><a href="benefits.html" id="navBenefits">Benefits</a></li>
+      <li><a href="rewards.html" id="navRewards" class="active">Rewards</a></li>
+      <li><a href="transactions.html" id="navTransactions">Transactions</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <button id="navLogout" class="logout-btn">Logout</button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <div class="page-header">
+      <h2>Rewards</h2>
+      <p>Redeem your reward points for vouchers.</p>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-label">Current Points</div>
+        <div class="stat-value" id="currentPoints">0</div>
+      </div>
+    </div>
+
+    <h3 class="section-title">Available Rewards</h3>
+    <div class="card-grid" id="rewardsList">
+    </div>
+  </main>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/rewards.js"></script>
+</body>
+</html>

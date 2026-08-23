@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login — Employee Benefits Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="login-wrapper">
+  <div class="login-card">
+    <div class="login-brand">
+      <div class="logo-mark">EB</div>
+      <h1>Employee Benefits Portal</h1>
+    </div>
+    <p class="subtitle">Sign in to view your benefits and rewards.</p>
+
+    <div id="errorMessage" class="error-message hidden"></div>
+
+    <div class="field-group">
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="you@company.com" autocomplete="username">
+    </div>
+
+    <div class="field-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password">
+    </div>
+
+    <button id="loginBtn" class="login-btn">Log in</button>
+
+    <div class="demo-hint">
+      Demo account — Email: <code>employee@test.com</code> · Password: <code>Test@123</code>
+    </div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
