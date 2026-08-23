@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EmployeeBenefitsPortalSuite" verbose="1">
+
+  <test name="LoginTests">
+    <classes>
+      <class name="tests.LoginTest"/>
+    </classes>
+  </test>
+
+  <test name="BenefitsTests">
+    <classes>
+      <class name="tests.BenefitsTest"/>
+    </classes>
+  </test>
+
+  <test name="RewardsTests">
+    <classes>
+      <class name="tests.RewardsTest"/>
+    </classes>
+  </test>
+
+  <test name="TransactionsTests">
+    <classes>
+      <class name="tests.TransactionsTest"/>
+    </classes>
+  </test>
+
+</suite>
