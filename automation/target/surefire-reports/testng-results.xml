@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-18T03:33:45 IST" name="EmployeeBenefitsPortalSuite" finished-at="2026-09-18T03:34:24 IST" duration-ms="38893">
+    <groups>
+    </groups>
+    <test started-at="2026-09-18T03:33:45 IST" name="LoginTests" finished-at="2026-09-18T03:33:55 IST" duration-ms="9453">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:45 IST" name="setUp" finished-at="2026-09-18T03:33:48 IST" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidPassword()[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:48 IST" name="testInvalidPassword" finished-at="2026-09-18T03:33:48 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:48 IST" name="tearDown" finished-at="2026-09-18T03:33:49 IST" duration-ms="329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidPassword status=SUCCESS method=LoginTest.testInvalidPassword()[pri:0, instance:tests.LoginTest@3d121db3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:49 IST" name="setUp" finished-at="2026-09-18T03:33:50 IST" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidUsername()[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:50 IST" name="testInvalidUsername" finished-at="2026-09-18T03:33:50 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:50 IST" name="tearDown" finished-at="2026-09-18T03:33:51 IST" duration-ms="521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidUsername status=SUCCESS method=LoginTest.testInvalidUsername()[pri:0, instance:tests.LoginTest@3d121db3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:51 IST" name="setUp" finished-at="2026-09-18T03:33:52 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogout()[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:52 IST" name="testLogout" finished-at="2026-09-18T03:33:53 IST" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:53 IST" name="tearDown" finished-at="2026-09-18T03:33:53 IST" duration-ms="346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogout status=SUCCESS method=LoginTest.testLogout()[pri:0, instance:tests.LoginTest@3d121db3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:53 IST" name="setUp" finished-at="2026-09-18T03:33:54 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:54 IST" name="testSuccessfulLogin" finished-at="2026-09-18T03:33:54 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3d121db3]" started-at="2026-09-18T03:33:54 IST" name="tearDown" finished-at="2026-09-18T03:33:55 IST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTest.testSuccessfulLogin()[pri:0, instance:tests.LoginTest@3d121db3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- LoginTests -->
+    <test started-at="2026-09-18T03:33:55 IST" name="BenefitsTests" finished-at="2026-09-18T03:34:07 IST" duration-ms="12592">
+      <class name="tests.BenefitsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:33:55 IST" name="setUp" finished-at="2026-09-18T03:33:55 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToBenefitsPage()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:33:55 IST" name="goToBenefitsPage" finished-at="2026-09-18T03:33:56 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBenefitsPage -->
+        <test-method signature="testBenefitsAreDisplayed()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:33:56 IST" name="testBenefitsAreDisplayed" finished-at="2026-09-18T03:33:56 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBenefitsAreDisplayed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:33:56 IST" name="tearDown" finished-at="2026-09-18T03:33:56 IST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBenefitsAreDisplayed status=SUCCESS method=BenefitsTest.testBenefitsAreDisplayed()[pri:0, instance:tests.BenefitsTest@76908cc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:33:56 IST" name="setUp" finished-at="2026-09-18T03:33:57 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToBenefitsPage()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:33:57 IST" name="goToBenefitsPage" finished-at="2026-09-18T03:33:58 IST" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBenefitsPage -->
+        <test-method signature="testBenefitsPageOpens()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:33:58 IST" name="testBenefitsPageOpens" finished-at="2026-09-18T03:33:58 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBenefitsPageOpens -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:33:58 IST" name="tearDown" finished-at="2026-09-18T03:33:58 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBenefitsPageOpens status=SUCCESS method=BenefitsTest.testBenefitsPageOpens()[pri:0, instance:tests.BenefitsTest@76908cc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:33:58 IST" name="setUp" finished-at="2026-09-18T03:33:59 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToBenefitsPage()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:33:59 IST" name="goToBenefitsPage" finished-at="2026-09-18T03:34:00 IST" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBenefitsPage -->
+        <test-method signature="testFilterByCategory()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:00 IST" name="testFilterByCategory" finished-at="2026-09-18T03:34:00 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterByCategory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:00 IST" name="tearDown" finished-at="2026-09-18T03:34:00 IST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFilterByCategory status=SUCCESS method=BenefitsTest.testFilterByCategory()[pri:0, instance:tests.BenefitsTest@76908cc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:00 IST" name="setUp" finished-at="2026-09-18T03:34:01 IST" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToBenefitsPage()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:01 IST" name="goToBenefitsPage" finished-at="2026-09-18T03:34:02 IST" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBenefitsPage -->
+        <test-method signature="testOpenBenefitDetails()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:02 IST" name="testOpenBenefitDetails" finished-at="2026-09-18T03:34:02 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenBenefitDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:02 IST" name="tearDown" finished-at="2026-09-18T03:34:03 IST" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOpenBenefitDetails status=SUCCESS method=BenefitsTest.testOpenBenefitDetails()[pri:0, instance:tests.BenefitsTest@76908cc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:03 IST" name="setUp" finished-at="2026-09-18T03:34:03 IST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToBenefitsPage()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:03 IST" name="goToBenefitsPage" finished-at="2026-09-18T03:34:04 IST" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBenefitsPage -->
+        <test-method signature="testRedeemBenefit()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:04 IST" name="testRedeemBenefit" finished-at="2026-09-18T03:34:05 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedeemBenefit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:05 IST" name="tearDown" finished-at="2026-09-18T03:34:05 IST" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRedeemBenefit status=SUCCESS method=BenefitsTest.testRedeemBenefit()[pri:0, instance:tests.BenefitsTest@76908cc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:05 IST" name="setUp" finished-at="2026-09-18T03:34:06 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToBenefitsPage()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:06 IST" name="goToBenefitsPage" finished-at="2026-09-18T03:34:07 IST" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBenefitsPage -->
+        <test-method signature="testSearchBenefit()[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:07 IST" name="testSearchBenefit" finished-at="2026-09-18T03:34:07 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBenefit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.BenefitsTest@76908cc0]" started-at="2026-09-18T03:34:07 IST" name="tearDown" finished-at="2026-09-18T03:34:07 IST" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchBenefit status=SUCCESS method=BenefitsTest.testSearchBenefit()[pri:0, instance:tests.BenefitsTest@76908cc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BenefitsTest -->
+    </test> <!-- BenefitsTests -->
+    <test started-at="2026-09-18T03:34:07 IST" name="RewardsTests" finished-at="2026-09-18T03:34:18 IST" duration-ms="10732">
+      <class name="tests.RewardsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:07 IST" name="setUp" finished-at="2026-09-18T03:34:08 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToRewardsPage()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:08 IST" name="goToRewardsPage" finished-at="2026-09-18T03:34:09 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRewardsPage -->
+        <test-method signature="testInsufficientPointsValidation()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:09 IST" name="testInsufficientPointsValidation" finished-at="2026-09-18T03:34:10 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsufficientPointsValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:10 IST" name="tearDown" finished-at="2026-09-18T03:34:10 IST" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInsufficientPointsValidation status=SUCCESS method=RewardsTest.testInsufficientPointsValidation()[pri:0, instance:tests.RewardsTest@2e4b8173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:10 IST" name="setUp" finished-at="2026-09-18T03:34:10 IST" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToRewardsPage()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:10 IST" name="goToRewardsPage" finished-at="2026-09-18T03:34:11 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRewardsPage -->
+        <test-method signature="testPointsDeductedAfterRedemption()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:11 IST" name="testPointsDeductedAfterRedemption" finished-at="2026-09-18T03:34:12 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPointsDeductedAfterRedemption -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:12 IST" name="tearDown" finished-at="2026-09-18T03:34:12 IST" duration-ms="296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPointsDeductedAfterRedemption status=SUCCESS method=RewardsTest.testPointsDeductedAfterRedemption()[pri:0, instance:tests.RewardsTest@2e4b8173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:12 IST" name="setUp" finished-at="2026-09-18T03:34:13 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToRewardsPage()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:13 IST" name="goToRewardsPage" finished-at="2026-09-18T03:34:13 IST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRewardsPage -->
+        <test-method signature="testRewardPointsDisplayed()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:13 IST" name="testRewardPointsDisplayed" finished-at="2026-09-18T03:34:14 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRewardPointsDisplayed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:14 IST" name="tearDown" finished-at="2026-09-18T03:34:14 IST" duration-ms="397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRewardPointsDisplayed status=SUCCESS method=RewardsTest.testRewardPointsDisplayed()[pri:0, instance:tests.RewardsTest@2e4b8173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:14 IST" name="setUp" finished-at="2026-09-18T03:34:15 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToRewardsPage()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:15 IST" name="goToRewardsPage" finished-at="2026-09-18T03:34:15 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRewardsPage -->
+        <test-method signature="testRewardsAreDisplayed()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:15 IST" name="testRewardsAreDisplayed" finished-at="2026-09-18T03:34:16 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRewardsAreDisplayed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:16 IST" name="tearDown" finished-at="2026-09-18T03:34:16 IST" duration-ms="303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRewardsAreDisplayed status=SUCCESS method=RewardsTest.testRewardsAreDisplayed()[pri:0, instance:tests.RewardsTest@2e4b8173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:16 IST" name="setUp" finished-at="2026-09-18T03:34:17 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToRewardsPage()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:17 IST" name="goToRewardsPage" finished-at="2026-09-18T03:34:18 IST" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRewardsPage -->
+        <test-method signature="testSuccessfulRewardRedemption()[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:18 IST" name="testSuccessfulRewardRedemption" finished-at="2026-09-18T03:34:18 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulRewardRedemption -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RewardsTest@2e4b8173]" started-at="2026-09-18T03:34:18 IST" name="tearDown" finished-at="2026-09-18T03:34:18 IST" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulRewardRedemption status=SUCCESS method=RewardsTest.testSuccessfulRewardRedemption()[pri:0, instance:tests.RewardsTest@2e4b8173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RewardsTest -->
+    </test> <!-- RewardsTests -->
+    <test started-at="2026-09-18T03:34:18 IST" name="TransactionsTests" finished-at="2026-09-18T03:34:24 IST" duration-ms="6071">
+      <class name="tests.TransactionsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:18 IST" name="setUp" finished-at="2026-09-18T03:34:19 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToTransactionsPage()[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:19 IST" name="goToTransactionsPage" finished-at="2026-09-18T03:34:20 IST" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToTransactionsPage -->
+        <test-method signature="testSearchTransaction()[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:20 IST" name="testSearchTransaction" finished-at="2026-09-18T03:34:20 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchTransaction -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:20 IST" name="tearDown" finished-at="2026-09-18T03:34:20 IST" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchTransaction status=SUCCESS method=TransactionsTest.testSearchTransaction()[pri:0, instance:tests.TransactionsTest@e056f20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:20 IST" name="setUp" finished-at="2026-09-18T03:34:21 IST" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToTransactionsPage()[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:21 IST" name="goToTransactionsPage" finished-at="2026-09-18T03:34:22 IST" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToTransactionsPage -->
+        <test-method signature="testTransactionsAreDisplayed()[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:22 IST" name="testTransactionsAreDisplayed" finished-at="2026-09-18T03:34:22 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactionsAreDisplayed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:22 IST" name="tearDown" finished-at="2026-09-18T03:34:22 IST" duration-ms="300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTransactionsAreDisplayed status=SUCCESS method=TransactionsTest.testTransactionsAreDisplayed()[pri:0, instance:tests.TransactionsTest@e056f20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:22 IST" name="setUp" finished-at="2026-09-18T03:34:23 IST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goToTransactionsPage()[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:23 IST" name="goToTransactionsPage" finished-at="2026-09-18T03:34:24 IST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToTransactionsPage -->
+        <test-method signature="testTransactionsPageOpens()[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:24 IST" name="testTransactionsPageOpens" finished-at="2026-09-18T03:34:24 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactionsPageOpens -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TransactionsTest@e056f20]" started-at="2026-09-18T03:34:24 IST" name="tearDown" finished-at="2026-09-18T03:34:24 IST" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTransactionsPageOpens status=SUCCESS method=TransactionsTest.testTransactionsPageOpens()[pri:0, instance:tests.TransactionsTest@e056f20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TransactionsTest -->
+    </test> <!-- TransactionsTests -->
+  </suite> <!-- EmployeeBenefitsPortalSuite -->
+</testng-results>
