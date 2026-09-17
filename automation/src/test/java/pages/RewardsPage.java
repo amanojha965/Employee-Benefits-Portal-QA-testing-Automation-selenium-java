@@ -1,7 +1,10 @@
 package pages;
 
 import org.openqa.selenium.By;
+<<<<<<< HEAD
 import org.openqa.selenium.JavascriptExecutor;
+=======
+>>>>>>> origin/main
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -26,6 +29,7 @@ public class RewardsPage {
     }
 
     public boolean isLoaded() {
+<<<<<<< HEAD
         return wait.until(ExpectedConditions.visibilityOfElementLocated(pageHeading)).getText()
                 .equalsIgnoreCase("Rewards");
     }
@@ -33,6 +37,13 @@ public class RewardsPage {
     public int getCurrentPoints() {
         return Integer
                 .parseInt(wait.until(ExpectedConditions.visibilityOfElementLocated(currentPoints)).getText().trim());
+=======
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(pageHeading)).getText().equalsIgnoreCase("Rewards");
+    }
+
+    public int getCurrentPoints() {
+        return Integer.parseInt(wait.until(ExpectedConditions.visibilityOfElementLocated(currentPoints)).getText().trim());
+>>>>>>> origin/main
     }
 
     public int getVisibleRewardCount() {
@@ -42,8 +53,12 @@ public class RewardsPage {
 
     public boolean isRewardDisplayed(String rewardName) {
         return driver.findElements(rewardCards).stream()
+<<<<<<< HEAD
                 .anyMatch(card -> card.findElement(By.cssSelector(".reward-name")).getText()
                         .equalsIgnoreCase(rewardName));
+=======
+                .anyMatch(card -> card.findElement(By.cssSelector(".reward-name")).getText().equalsIgnoreCase(rewardName));
+>>>>>>> origin/main
     }
 
     private WebElement findCardByName(String rewardName) {
@@ -59,8 +74,12 @@ public class RewardsPage {
 
     public void redeemReward(String rewardName) {
         WebElement card = findCardByName(rewardName);
+<<<<<<< HEAD
         WebElement redeemButton = card.findElement(By.cssSelector(".redeem-btn"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", redeemButton);
+=======
+        card.findElement(By.cssSelector(".redeem-btn")).click();
+>>>>>>> origin/main
     }
 
     public String getRedeemMessage(String rewardName) {

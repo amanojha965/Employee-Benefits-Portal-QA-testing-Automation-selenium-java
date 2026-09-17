@@ -1,7 +1,10 @@
 package pages;
 
 import org.openqa.selenium.By;
+<<<<<<< HEAD
 import org.openqa.selenium.JavascriptExecutor;
+=======
+>>>>>>> origin/main
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -25,8 +28,12 @@ public class TransactionsPage {
     }
 
     public boolean isLoaded() {
+<<<<<<< HEAD
         return wait.until(ExpectedConditions.visibilityOfElementLocated(pageHeading)).getText()
                 .equalsIgnoreCase("Transactions");
+=======
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(pageHeading)).getText().equalsIgnoreCase("Transactions");
+>>>>>>> origin/main
     }
 
     public int getTransactionRowCount() {
@@ -36,14 +43,23 @@ public class TransactionsPage {
 
     public void searchTransaction(String query) {
         WebElement box = wait.until(ExpectedConditions.visibilityOfElementLocated(searchBox));
+<<<<<<< HEAD
         ((JavascriptExecutor) driver).executeScript(
                 "arguments[0].value = arguments[1]; arguments[0].dispatchEvent(new Event('input', { bubbles: true }));",
                 box, query);
+=======
+        box.clear();
+        box.sendKeys(query);
+>>>>>>> origin/main
     }
 
     public boolean isTransactionDisplayed(String transactionName) {
         return driver.findElements(tableRows).stream()
+<<<<<<< HEAD
                 .anyMatch(row -> row.findElement(By.cssSelector("td:first-child")).getText()
                         .equalsIgnoreCase(transactionName));
+=======
+                .anyMatch(row -> row.findElement(By.cssSelector("td:first-child")).getText().equalsIgnoreCase(transactionName));
+>>>>>>> origin/main
     }
 }

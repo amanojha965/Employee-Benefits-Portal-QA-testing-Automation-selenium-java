@@ -1,7 +1,10 @@
 package pages;
 
 import org.openqa.selenium.By;
+<<<<<<< HEAD
 import org.openqa.selenium.JavascriptExecutor;
+=======
+>>>>>>> origin/main
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -31,8 +34,12 @@ public class BenefitsPage {
     }
 
     public boolean isLoaded() {
+<<<<<<< HEAD
         return wait.until(ExpectedConditions.visibilityOfElementLocated(pageHeading)).getText()
                 .equalsIgnoreCase("Benefits");
+=======
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(pageHeading)).getText().equalsIgnoreCase("Benefits");
+>>>>>>> origin/main
     }
 
     public int getVisibleBenefitCount() {
@@ -42,9 +49,14 @@ public class BenefitsPage {
 
     public void searchBenefit(String query) {
         WebElement box = wait.until(ExpectedConditions.visibilityOfElementLocated(searchBox));
+<<<<<<< HEAD
         ((JavascriptExecutor) driver).executeScript(
                 "arguments[0].value = arguments[1]; arguments[0].dispatchEvent(new Event('input', { bubbles: true }));",
                 box, query);
+=======
+        box.clear();
+        box.sendKeys(query);
+>>>>>>> origin/main
     }
 
     public void filterByCategory(String category) {
@@ -73,8 +85,12 @@ public class BenefitsPage {
 
     public void openBenefitDetails(String benefitName) {
         WebElement card = findCardByName(benefitName);
+<<<<<<< HEAD
         WebElement detailsButton = card.findElement(By.cssSelector("[data-action='details']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", detailsButton);
+=======
+        card.findElement(By.cssSelector("[data-action='details']")).click();
+>>>>>>> origin/main
         wait.until(ExpectedConditions.visibilityOfElementLocated(modal));
     }
 
@@ -88,8 +104,12 @@ public class BenefitsPage {
 
     public void redeemBenefit(String benefitName) {
         WebElement card = findCardByName(benefitName);
+<<<<<<< HEAD
         WebElement redeemButton = card.findElement(By.cssSelector("[data-action='redeem']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", redeemButton);
+=======
+        card.findElement(By.cssSelector("[data-action='redeem']")).click();
+>>>>>>> origin/main
     }
 
     public String getRedeemMessage(String benefitName) {
