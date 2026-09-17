@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — Employee Benefits Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo-mark">EB</div>
+      <span>Benefits Portal</span>
+    </div>
+    <ul class="nav-menu">
+      <li><a href="dashboard.html" id="navDashboard" class="active">Dashboard</a></li>
+      <li><a href="benefits.html" id="navBenefits">Benefits</a></li>
+      <li><a href="rewards.html" id="navRewards">Rewards</a></li>
+      <li><a href="transactions.html" id="navTransactions">Transactions</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <button id="navLogout" class="logout-btn">Logout</button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <div class="page-header">
+      <h2>Welcome back, <span id="employeeName">—</span></h2>
+      <p>Here's a snapshot of your benefits and rewards.</p>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-label">Reward Points</div>
+        <div class="stat-value" id="rewardPoints">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Available Benefits</div>
+        <div class="stat-value" id="benefitsCount">0</div>
+      </div>
+    </div>
+
+    <h3 class="section-title">Recent Transactions</h3>
+    <table class="data-table" id="recentTransactions">
+      <thead>
+        <tr>
+          <th>Transaction</th>
+          <th>Type</th>
+          <th>Points</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="recentTransactionsBody">
+      </tbody>
+    </table>
+  </main>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>

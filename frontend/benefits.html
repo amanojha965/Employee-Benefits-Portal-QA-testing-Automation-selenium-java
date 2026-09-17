@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Benefits — Employee Benefits Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo-mark">EB</div>
+      <span>Benefits Portal</span>
+    </div>
+    <ul class="nav-menu">
+      <li><a href="dashboard.html" id="navDashboard">Dashboard</a></li>
+      <li><a href="benefits.html" id="navBenefits" class="active">Benefits</a></li>
+      <li><a href="rewards.html" id="navRewards">Rewards</a></li>
+      <li><a href="transactions.html" id="navTransactions">Transactions</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <button id="navLogout" class="logout-btn">Logout</button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <div class="page-header">
+      <h2>Benefits</h2>
+      <p>Browse and redeem employee benefits across every category.</p>
+    </div>
+
+    <div class="filters-row">
+      <input type="text" id="searchBenefit" placeholder="Search benefits by name...">
+      <select id="categoryFilter">
+        <option value="All">All Categories</option>
+        <option value="Food">Food</option>
+        <option value="Shopping">Shopping</option>
+        <option value="Travel">Travel</option>
+        <option value="Entertainment">Entertainment</option>
+        <option value="Fitness">Fitness</option>
+      </select>
+    </div>
+
+    <div class="card-grid" id="benefitsList">
+    </div>
+  </main>
+</div>
+
+<div class="modal-overlay hidden" id="benefitModal">
+  <div class="modal-box">
+    <h3 id="modalBenefitName">Benefit</h3>
+    <div id="modalBenefitBody"></div>
+    <button class="modal-close-btn" id="modalCloseBtn">Close</button>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/benefits.js"></script>
+</body>
+</html>
